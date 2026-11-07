@@ -1,0 +1,42 @@
+{
+  "native_B": {
+    "label": "原生QuadWild",
+    "main_table": true,
+    "record_type": "frozen historical reference"
+  },
+  "old_MIQ_G": {
+    "label": "旧MIQ诊断D",
+    "main_table": false,
+    "record_type": "frozen historical reference"
+  },
+  "native_B_R": {
+    "label": "原生QuadWild＋R",
+    "main_table": true,
+    "record_type": "frozen historical reference"
+  },
+  "old_MIQ_G_R": {
+    "label": "旧MIQ诊断D＋R",
+    "main_table": false,
+    "record_type": "frozen historical reference"
+  },
+  "self_G": {
+    "label": "自身诊断D（旧选择规则）",
+    "main_table": false,
+    "record_type": "main native-diagnosis experiment"
+  },
+  "self_G_fallback": {
+    "label": "D",
+    "main_table": true,
+    "record_type": "main native-diagnosis experiment"
+  },
+  "self_G_R": {
+    "label": "自身诊断D＋R（旧选择规则）",
+    "main_table": false,
+    "record_type": "main native-diagnosis experiment"
+  },
+  "self_G_R_fallback": {
+    "label": "D＋R（当前）",
+    "main_table": true,
+    "record_type": "main native-diagnosis experiment"
+  }
+}

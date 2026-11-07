@@ -1,0 +1,5 @@
+arm,label,denominator,readable,strict,valid_F_le_0.01,valid_F_le_0.025,valid_F_le_0.05,valid_F_le_0.1
+native_B,原生QuadWild,980,832,480,178,364,435,467
+native_B_R,原生QuadWild＋R,980,832,480,256,451,474,479
+self_G_fallback,D,980,858,549,178,366,445,490
+self_G_R_fallback,D＋R（当前）,980,858,549,276,496,535,547

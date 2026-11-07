@@ -1,0 +1,275 @@
+{
+  "version": "QuadWild native diagnosis + D + frozen R",
+  "main_arms": [
+    "native_B",
+    "native_B_R",
+    "self_G_fallback",
+    "self_G_R_fallback"
+  ],
+  "populations": {
+    "native_B": {
+      "denominator": 980,
+      "readable": 832,
+      "strict": 480,
+      "attainment": {
+        "0.01": 178,
+        "0.025": 364,
+        "0.05": 435,
+        "0.1": 467
+      }
+    },
+    "old_MIQ_G": {
+      "denominator": 980,
+      "readable": 853,
+      "strict": 547,
+      "attainment": {
+        "0.01": 178,
+        "0.025": 364,
+        "0.05": 447,
+        "0.1": 503
+      }
+    },
+    "native_B_R": {
+      "denominator": 980,
+      "readable": 832,
+      "strict": 480,
+      "attainment": {
+        "0.01": 256,
+        "0.025": 451,
+        "0.05": 474,
+        "0.1": 479
+      }
+    },
+    "old_MIQ_G_R": {
+      "denominator": 980,
+      "readable": 853,
+      "strict": 547,
+      "attainment": {
+        "0.01": 273,
+        "0.025": 491,
+        "0.05": 528,
+        "0.1": 542
+      }
+    },
+    "self_G": {
+      "denominator": 980,
+      "readable": 858,
+      "strict": 549,
+      "attainment": {
+        "0.01": 178,
+        "0.025": 366,
+        "0.05": 445,
+        "0.1": 490
+      }
+    },
+    "self_G_fallback": {
+      "denominator": 980,
+      "readable": 858,
+      "strict": 549,
+      "attainment": {
+        "0.01": 178,
+        "0.025": 366,
+        "0.05": 445,
+        "0.1": 490
+      }
+    },
+    "self_G_R": {
+      "denominator": 980,
+      "readable": 858,
+      "strict": 549,
+      "attainment": {
+        "0.01": 276,
+        "0.025": 496,
+        "0.05": 535,
+        "0.1": 547
+      }
+    },
+    "self_G_R_fallback": {
+      "denominator": 980,
+      "readable": 858,
+      "strict": 549,
+      "attainment": {
+        "0.01": 276,
+        "0.025": 496,
+        "0.05": 535,
+        "0.1": 547
+      }
+    }
+  },
+  "common_readable_statistics": {
+    "native_B": {
+      "feature_RMS_h": {
+        "median": 0.01827835134969291,
+        "mean": 0.028764278224035614
+      },
+      "surface_RMS_bbox": {
+        "median": 0.00015681969888048906,
+        "mean": 0.00021422482529524084
+      },
+      "CD_squared_bbox": {
+        "median": 9.925963557801538e-06,
+        "mean": 1.0538273229233607e-05
+      },
+      "HD_sampled_bbox": {
+        "median": 0.001738403748421627,
+        "mean": 0.0031821341850472172
+      }
+    },
+    "native_B_R": {
+      "feature_RMS_h": {
+        "median": 0.013908817703551297,
+        "mean": 0.02302713125086505
+      },
+      "surface_RMS_bbox": {
+        "median": 0.00011766191362606925,
+        "mean": 0.0001818590412659485
+      },
+      "CD_squared_bbox": {
+        "median": 9.930755601898053e-06,
+        "mean": 1.0526317865127896e-05
+      },
+      "HD_sampled_bbox": {
+        "median": 0.0015380808563299295,
+        "mean": 0.00291490381435024
+      }
+    },
+    "self_G_fallback": {
+      "feature_RMS_h": {
+        "median": 0.019371363224512668,
+        "mean": 0.03693876441393698
+      },
+      "surface_RMS_bbox": {
+        "median": 0.00016774070982160876,
+        "mean": 0.00022790132814601015
+      },
+      "CD_squared_bbox": {
+        "median": 9.912625463930705e-06,
+        "mean": 1.0544267273399399e-05
+      },
+      "HD_sampled_bbox": {
+        "median": 0.0018561575036701696,
+        "mean": 0.003424514581961758
+      }
+    },
+    "self_G_R_fallback": {
+      "feature_RMS_h": {
+        "median": 0.01375794534584509,
+        "mean": 0.023026625064199807
+      },
+      "surface_RMS_bbox": {
+        "median": 0.00011150839832297563,
+        "mean": 0.00017484269274359502
+      },
+      "CD_squared_bbox": {
+        "median": 9.89212737663315e-06,
+        "mean": 1.052175928591707e-05
+      },
+      "HD_sampled_bbox": {
+        "median": 0.0015329128626004147,
+        "mean": 0.002826910663900654
+      }
+    }
+  },
+  "common_strict_statistics": {
+    "native_B": {
+      "feature_RMS_h": {
+        "median": 0.014532091445453454,
+        "mean": 0.020718983896835387
+      },
+      "surface_RMS_bbox": {
+        "median": 0.00013289909902772796,
+        "mean": 0.00016900101642052927
+      },
+      "CD_squared_bbox": {
+        "median": 1.0149774124346705e-05,
+        "mean": 1.072206352601195e-05
+      },
+      "HD_sampled_bbox": {
+        "median": 0.001275619865351419,
+        "mean": 0.0016825752846513625
+      }
+    },
+    "native_B_R": {
+      "feature_RMS_h": {
+        "median": 0.009150237106329652,
+        "mean": 0.010774595810006412
+      },
+      "surface_RMS_bbox": {
+        "median": 7.588051371548942e-05,
+        "mean": 0.00011290032410308925
+      },
+      "CD_squared_bbox": {
+        "median": 1.0126982445678112e-05,
+        "mean": 1.0701340894895386e-05
+      },
+      "HD_sampled_bbox": {
+        "median": 0.0009674306814476671,
+        "mean": 0.0012193759754432684
+      }
+    },
+    "self_G_fallback": {
+      "feature_RMS_h": {
+        "median": 0.014532091445453454,
+        "mean": 0.02064713780233798
+      },
+      "surface_RMS_bbox": {
+        "median": 0.00013289909902772796,
+        "mean": 0.0001689460820656462
+      },
+      "CD_squared_bbox": {
+        "median": 1.0149774124346705e-05,
+        "mean": 1.0721734618186431e-05
+      },
+      "HD_sampled_bbox": {
+        "median": 0.001275619865351419,
+        "mean": 0.001691111659436031
+      }
+    },
+    "self_G_R_fallback": {
+      "feature_RMS_h": {
+        "median": 0.00911294737242901,
+        "mean": 0.010763960605114925
+      },
+      "surface_RMS_bbox": {
+        "median": 7.588051371548942e-05,
+        "mean": 0.00011283593083972675
+      },
+      "CD_squared_bbox": {
+        "median": 1.0126982445678112e-05,
+        "mean": 1.0701143016262502e-05
+      },
+      "HD_sampled_bbox": {
+        "median": 0.0009674306814476671,
+        "mean": 0.0012186986248502855
+      }
+    }
+  },
+  "common_readable_n": 832,
+  "common_strict_n": 480,
+  "native_groups": {
+    "native_valid": {
+      "native_n": 480,
+      "D_strict": 480
+    },
+    "geometry_only_failure": {
+      "native_n": 269,
+      "D_strict": 58
+    },
+    "no_readable_output": {
+      "native_n": 148,
+      "D_strict": 5
+    },
+    "structural_failure": {
+      "native_n": 83,
+      "D_strict": 6
+    }
+  },
+  "rescued_cohort": {
+    "n": 69,
+    "F005_before_R": 10,
+    "F005_after_R": 61,
+    "native_valid_F005_after_R": 474
+  },
+  "new_generation_calls": 1949,
+  "new_operator_calls": 68
+}

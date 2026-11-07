@@ -1,0 +1,76 @@
+{
+  "complete": true,
+  "passed": true,
+  "checked_models": 980,
+  "worker_statuses": {
+    "completed": 980
+  },
+  "initialization_modes": {
+    "native_QuadWild": 832,
+    "source_geometry_no_native_output": 148
+  },
+  "checked_unique_file_objects": 4525,
+  "generation_candidates": 1949,
+  "candidate_timeouts": 386,
+  "controller_alerts": [
+    {
+      "id": "89418",
+      "controller_reasons": [
+        "worker_exit_with_live_descendants"
+      ],
+      "complete_worker": true,
+      "results_preserved": true
+    },
+    {
+      "id": "38297",
+      "controller_reasons": [
+        "worker_exit_with_live_descendants"
+      ],
+      "complete_worker": true,
+      "results_preserved": true
+    },
+    {
+      "id": "919986",
+      "controller_reasons": [
+        "worker_exit_with_live_descendants"
+      ],
+      "complete_worker": true,
+      "results_preserved": true
+    },
+    {
+      "id": "619567",
+      "controller_reasons": [
+        "worker_exit_with_live_descendants"
+      ],
+      "complete_worker": true,
+      "results_preserved": true
+    },
+    {
+      "id": "96780",
+      "controller_reasons": [
+        "worker_exit_with_live_descendants"
+      ],
+      "complete_worker": true,
+      "results_preserved": true
+    },
+    {
+      "id": "129916",
+      "controller_reasons": [
+        "worker_exit_with_live_descendants"
+      ],
+      "complete_worker": true,
+      "results_preserved": true
+    },
+    {
+      "id": "723890",
+      "controller_reasons": [
+        "worker_exit_with_live_descendants"
+      ],
+      "complete_worker": true,
+      "results_preserved": true
+    }
+  ],
+  "problems": [],
+  "audit_utc": "2026-11-06T12:24:31.883812+00:00",
+  "scope": "Read-only final identity and lifecycle audit. No experiment reruns or historical record edits."
+}

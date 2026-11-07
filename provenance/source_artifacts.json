@@ -1,0 +1,154 @@
+{
+  "experiment_id": "2026-11-06_quadwild_self_diagnosis_v1",
+  "original_artifacts": [
+    {
+      "logical_name": "analysis/summary.json",
+      "sha256": "8add10c5071693df0e227c97e9eb5bfa11b1b72166fd00b336f8ea9b7115b98e"
+    },
+    {
+      "logical_name": "analysis/per_model.csv",
+      "sha256": "a93c8e70712cfd559a91b379705a41c0e42555115a5a6183ea735604b55b976a"
+    },
+    {
+      "logical_name": "analysis/workbook_data.json",
+      "sha256": "412081db6caba752ec4d9acb353785c48da0d0f49b44874a11fee4fe68fdac63"
+    },
+    {
+      "logical_name": "analysis/component_replay.json",
+      "sha256": "4959d4fb0d7d89c025b6a785dc8f3ae5a2ed70029830796274463bcf6eb1e701"
+    },
+    {
+      "logical_name": "analysis/fair_fallback_comparison.json",
+      "sha256": "7227e76b90fc583e788ac27a0aa3015937f9d7b7b8e8a94f638382725ad6e907"
+    },
+    {
+      "logical_name": "manifest.json",
+      "sha256": "853705083254c970ef337892d71e5a00538820d75f59557e4c0199011a2e7bcd"
+    },
+    {
+      "logical_name": "protocol.json",
+      "sha256": "95644c01597df554db1ee5ba4fe44c6bf4d939b08aea30b24126a813674f11dc"
+    },
+    {
+      "logical_name": "identity.json",
+      "sha256": "7a457785085b73bd1e82434e1464107809401488f7c0b853f3e781e6ced261cf"
+    },
+    {
+      "logical_name": "final_identity_lifecycle_audit.json",
+      "sha256": "b6281036be8f115059eee2e186820e172bf410f35cb54e3b8e1571037773b325"
+    }
+  ],
+  "export_changes": [
+    "Removed machine-specific quad_path column from per-model CSV.",
+    "Published source/reference hashes and fixed h instead of server paths.",
+    "Selected whole-module and outer-selection evidence; kept scientific values unchanged."
+  ],
+  "original_deployment_files": [
+    {
+      "logical_name": "self_diagnosis/prepare_server.py",
+      "sha256": "ac4770cdaef670bbb1454847bb261415c1026e4bcbc918d55f273ecbd36a5e9d"
+    },
+    {
+      "logical_name": "self_diagnosis/server_scheduler_v1.py",
+      "sha256": "8674c76496f2f0a8d437f9bbc67c53822c8a4af353a3d567b323b2327a3deffa"
+    },
+    {
+      "logical_name": "self_diagnosis/test_experiment.py",
+      "sha256": "abcd44c6a416b026e92755a3a1f8a1f10dda26279e3192f0db623ea33df38b74"
+    },
+    {
+      "logical_name": "self_diagnosis/prepare_local.py",
+      "sha256": "0883d9eaa9b86c615911204b70af1d6f356d973a1d973109e3ce978c1c7bd404"
+    },
+    {
+      "logical_name": "self_diagnosis/resource_admission.py",
+      "sha256": "accc690db3073eafdd141d3d99e52b6225c6f314e4b6f233fe97b718b62c43db"
+    },
+    {
+      "logical_name": "self_diagnosis/analyze.py",
+      "sha256": "54dac35a64121ecad262a6fd3d8bd6a25faf5b3cfdb822a09901cfba6f08667f"
+    },
+    {
+      "logical_name": "self_diagnosis/server_worker_v1.py",
+      "sha256": "27ba75fe3ae6fc53fdf70a009ddcdf24b9be059fc0fb4f477088e073b355020f"
+    },
+    {
+      "logical_name": "self_diagnosis/experiment_policy.py",
+      "sha256": "2c74be67951a50f12af9bdf91491f7dcd68c983cf34c999cadb412cf56508d1b"
+    },
+    {
+      "logical_name": "self_diagnosis/manifest.json",
+      "sha256": "853705083254c970ef337892d71e5a00538820d75f59557e4c0199011a2e7bcd"
+    },
+    {
+      "logical_name": "self_diagnosis/protocol.json",
+      "sha256": "95644c01597df554db1ee5ba4fe44c6bf4d939b08aea30b24126a813674f11dc"
+    }
+  ],
+  "frozen_runtime_files": [
+    {
+      "logical_name": "2026-10-05_free_count_stage12_v1/free_count_run.py",
+      "sha256": "c2408778f09b078ca845daa911b5ca18e63592e6a2dbca36a5cc927346a8e0c3"
+    },
+    {
+      "logical_name": "2026-10-05_free_count_stage12_v1/common.py",
+      "sha256": "9db431aa1d4861a8fc1587eabf7c33c0077c56bc95c70b898f9df01843e894ee"
+    },
+    {
+      "logical_name": "2026-10-05_free_count_stage12_v1/comparison.py",
+      "sha256": "ca4321f532c9b89c01880d8d601815d5602d3adbff119ddb63cd7baea3538aec"
+    },
+    {
+      "logical_name": "2026-10-05_free_count_stage12_v1/ablation_adapter.py",
+      "sha256": "46b61ce341b7f55afeeaf5d522acfe570aca0857a98cd18b55ca9e872faa0045"
+    },
+    {
+      "logical_name": "2026-10-05_free_count_stage12_v1/quadwild_setup.txt",
+      "sha256": "2992b386212421fbc5dfd00a5ecff352db74053c90b2892c457876b7eea3928f"
+    },
+    {
+      "logical_name": "2026-10-05_free_count_stage12_v1/identity.json",
+      "sha256": "c2d8544debada1b70165a8f9e8027574c0844437247830145577d2e4bfc3e842"
+    },
+    {
+      "logical_name": "2026-10-05_free_count_stage12_v1/runtime/bin/quadwild_highs",
+      "sha256": "f1d841f1239e5b52b77f299db12a0702ae89ff818d26632dbdad7ac24d96cf7a"
+    },
+    {
+      "logical_name": "2026-10-05_free_count_stage12_v1/runtime/bin/export_native_features",
+      "sha256": "d35a79fdf4a6d146f0324a076f585fb21aaba37b0110768928ded85c6443b45d"
+    },
+    {
+      "logical_name": "2026-10-05_free_count_stage12_v1/runtime/bin/check_self_intersections",
+      "sha256": "682fceb405c11d5785fca4f19a7e432b6d3dda70b39ee856ccd4d458889430f9"
+    },
+    {
+      "logical_name": "2026-10-05_free_count_stage12_v1/runtime/bin/segment_distance_query",
+      "sha256": "3cd83af187c79b5886959d9a8bc04e13f36e3298177c29ee52b8364e083a0a74"
+    },
+    {
+      "logical_name": "2026-10-05_free_count_stage12_v1/runtime/bin/surface_distance_query",
+      "sha256": "3d5524e06484d1c89e939f0f198e3369139c88081128f7cd7172142cf06ef745"
+    },
+    {
+      "logical_name": "2026-10-08_comparison_stage16_v1/server_worker_v1.py",
+      "sha256": "437ca2c1a6f19f36516f86ed080be3c3e136928a4013bba20c1f0733ecf8cd73"
+    },
+    {
+      "logical_name": "2026-10-08_comparison_stage16_v1/terminal_selection_v1.py",
+      "sha256": "0ffe1195d2964a0727c95964e2099cde9f9eb54939d77379d297bbf24f5774bc"
+    },
+    {
+      "logical_name": "2026-10-08_comparison_stage16_v1/identity.json",
+      "sha256": "4cdaca1cee99a5c3fb66c9a9023ce9e3c1a833d812f2bee2fb6230c54111444a"
+    },
+    {
+      "logical_name": "2026-10-08_comparison_stage16_v1/recovery_runtime/apply_feature_recovery_v1.py",
+      "sha256": "95adfa80ec236b46651513a7588c0e31a5655d297eed5543df1f7a7f7be494d4"
+    },
+    {
+      "logical_name": "2026-10-08_comparison_stage16_v1/recovery_runtime/network_development595_v1/protocol.json",
+      "sha256": "e8f2e718270f48f67e180380568092895827ef56b9fe3b751c2689da1fe3688b"
+    }
+  ]
+}

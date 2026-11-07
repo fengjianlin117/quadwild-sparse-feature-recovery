@@ -1,0 +1,53 @@
+{
+  "experiment": "2026-11-06 QuadWild-native initial diagnosis with fallback",
+  "registered": 999,
+  "source_eligible": 980,
+  "source_ineligible": 19,
+  "initialization_modes": {
+    "native_QuadWild": 832,
+    "source_geometry_no_native_output": 148
+  },
+  "D": {
+    "initial_constraint_length_fraction": 0.75,
+    "feedback_added_length_fraction": 0.15,
+    "score_surface_weight": 0.5,
+    "score_unaligned_weight": 0.5,
+    "maximum_candidate_solves": 2,
+    "candidate_timeout_seconds": 600,
+    "run_on_all_eligible_models": true,
+    "ranking": "Frozen strict-validity, failure, degeneration and defect ranking; no per-model parameter oracle."
+  },
+  "fallback": "If native is readable and selected D output is not strict, retain native.",
+  "R": {
+    "inverse_projection_steps": 5,
+    "network_recovery_steps": 5,
+    "strict_parents_only": true,
+    "fixed_connectivity": true,
+    "terminal_absolute_feature_improvement_tolerance_h": 1e-12,
+    "identity_reuse_keys": [
+      "source_sha256",
+      "reference_graph_sha256",
+      "h_eval",
+      "parent_quad_sha256"
+    ]
+  },
+  "evaluation": {
+    "complete_fixed_source_reference": true,
+    "thresholds_h": [
+      0.01,
+      0.025,
+      0.05,
+      0.1
+    ],
+    "main_common_readable_n": 832,
+    "main_common_strict_n": 480,
+    "information_visibility": "Previously observed internal dataset; no new external-unseen-test claim."
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "trimesh": "5.1.1",
+    "rtree": "1.4.1"
+  },
+  "scope": "Main experiment, D/R whole-module ablation and diagnosis/fallback controls only."
+}
